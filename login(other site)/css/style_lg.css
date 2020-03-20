@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+header{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
+    margin: auto;
+    width: 150px;
+}
+
+/*tela de login*/
+section{
+    background: white;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.400);
+    text-align: center;
+}
+
+input{
+    border-style: dashed;
+    border-color: coral;
+    border-width: 1px;
+    width: 250px;
+    height: 25px;
+}
+
+/*tela de error se faltar credenciais*/
+#error{
+    font: normal 10pt Arial;
+    color: rgb(206, 15, 15);
+    background-color: rgb(236, 147, 147);
+    width: 250px;
+    margin: auto;
+}
+
+#button{
+    border-style: none;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 12pt;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font: italic 16pt Arial;
+}

@@ -1,0 +1,27 @@
+body{
+    background-image: url(../img/minetrailer.jpg);
+    background-repeat: repeat;
+    
+}
+header{
+    text-align: center;
+}
+video{
+    border: 5px solid rgb(145, 145, 145);
+    border-radius: 10px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+footer{
+    width: 325px;
+    background-color: rgb(184, 182, 182);
+    margin: auto;
+    font: normal 16pt Arial;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top:600px;
+}
